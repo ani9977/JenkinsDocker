@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero button {
+            background-color: #ff6200;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .hero button:hover {
+            background-color: #e55d00;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+            background-color: #fff;
+        }
+        .service-box {
+            width: 30%;
+            text-align: center;
+        }
+        .service-box img {
+            width: 100px;
+            height: 100px;
+        }
+        .service-box h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Design Your Future</h2>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service-box">
+            <img src="https://img.icons8.com/clouds/100/000000/services.png" alt="Service 1">
+            <h3>Web Development</h3>
+            <p>We build responsive and modern websites.</p>
+        </div>
+        <div class="service-box">
+            <img src="https://img.icons8.com/clouds/100/000000/design.png" alt="Service 2">
+            <h3>Graphic Design</h3>
+            <p>Creating stunning visuals for your brand.</p>
+        </div>
+        <div class="service-box">
+            <img src="https://img.icons8.com/clouds/100/000000/online-support.png" alt="Service 3">
+            <h3>SEO Services</h3>
+            <p>Optimizing your website to rank higher.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mansi Kumawat. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
